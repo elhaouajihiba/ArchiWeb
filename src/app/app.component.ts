@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'elhaouaji-hiba-exo1';
+
+  public background:string="";
+  public changeBackground(e:string){
+    this.background = e;
+    console.log(e);
+
+  }
 }
